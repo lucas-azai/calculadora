@@ -21,13 +21,13 @@ function calcularNivel(saldoVitorias) {
 }
 
 function main() {
-    const vitorias = parseInt(prompt("Informe a quantidade de vitórias:"));
+    const vitorias = parseInt(prompt("Informe a quantidade de vitorias:"));
     const derrotas = parseInt(prompt("Informe a quantidade de derrotas:"));
 
     const saldoVitorias = calcularSaldoRankeadas(vitorias, derrotas);
     const nivel = calcularNivel(saldoVitorias);
 
-    console.log(`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
+    console.log(`O Heroi tem um saldo de ${saldoVitorias} e esta no nivel de ${nivel}`);
 }
 
 main();
